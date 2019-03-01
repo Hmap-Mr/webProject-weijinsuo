@@ -1,0 +1,1836 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, viewport-fit=cover">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./less/index.css">
+    <title>微金所</title>
+
+</head>
+<body>
+    <!-- 头部区域 -->
+    <header id="header" class="hidden-xs hidden-sm" >
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 text-center">
+                    <a href="#" class="link">
+                        <i class="glyphicon glyphicon-phone"></i>
+                        手机微金所
+                        <i class="glyphicon glyphicon-menu-down"></i> 
+                        <img src="./img/c_06.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-md-5 text-center">
+                    <i class="glyphicon glyphicon-phone-alt"></i>
+                    4006-89-4006（服务时间：9:00-21:00）
+                </div>
+                <div class="col-md-2 text-center">
+                    <a href="#">常见问题</a>
+                    <a href="#">财富登录</a>    
+                </div>
+                <div class="col-md-3 text-right">
+                    <button type="button" class="btn btn-danger btn-sm">免费注册</button>
+                    <!-- <a type="button" class="btn btn-link">登录</a> -->
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-link btn-sm" data-toggle="modal" data-target="#myModal">
+                        登录
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade text-left" id="myModal" tabindex="-1">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    <h4 class="modal-title" id="myModalLabel">登录框</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <form class="form-horizontal">
+                                        <div class="form-group">
+                                            <label for="inputEmail3" class="col-sm-2 control-label">账号</label>
+                                            <div class="col-sm-10">
+                                                <input type="text" class="form-control" id="inputEmail3" placeholder="请输入账号">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="inputPassword3" class="col-sm-2 control-label">密码</label>
+                                            <div class="col-sm-10">
+                                                <input type="password" class="form-control" id="inputPassword3" placeholder="请输入密码">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="col-sm-12">
+                                                <button type="submit" class="btn btn-success btn-block" data-dismiss="modal">登录</button>
+                                            </div>
+                                        </div>
+                                        
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">保存</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- 导航条区域 -->
+    <nav id="nav" class="navbar navbar-default" data-spy="affix" data-offset-top="40" data-offset-bottom="200">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                    aria-expanded="false">
+                    <span class="sr-only"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <i class="icon-icon"></i>
+                    <i class="icon-logo"></i>
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">我要投资 <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">我要借款</a></li>
+                    <li><a href="#">平台介绍</a></li>
+                    <li><a href="#">新手专区</a></li>
+                    <li><a href="#">最新动态</a></li>
+                    <li><a href="#">微论坛</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <!-- <i class="glyphicon glyphicon-user"></i> -->
+                    <li><a href="#">个人中心</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    <!-- 轮播图区域 -->
+    <section id="slide" class="slide">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <div class="large-img hidden-xs" style="background-image:url(./img/slide_01_2000x410.jpg)"></div>
+                    <img class="small-img hidden-sm hidden-md hidden-lg" src="./img/slide_01_640x340.jpg" alt="...">
+                </div>
+                <div class="item">
+                    <div class="large-img hidden-xs" style="background-image:url(./img/slide_02_2000x410.jpg)"></div>
+                    <img class="small-img hidden-sm hidden-md hidden-lg" src="./img/slide_02_640x340.jpg" alt="...">
+                </div>
+                <div class="item">
+                    <div class="large-img hidden-xs" style="background-image:url(./img/slide_03_2000x410.jpg)"></div>
+                    <img class="small-img hidden-sm hidden-md hidden-lg" src="./img/slide_03_640x340.jpg" alt="...">
+                </div>
+                <div class="item">
+                    <div class="large-img hidden-xs" style="background-image:url(./img/slide_04_2000x410.jpg)"></div>
+                    <img class="small-img hidden-sm hidden-md hidden-lg" src="./img/slide_04_640x340.jpg" alt="...">
+                </div>
+
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+    <!-- 特色介绍区域 -->
+    <section id="feature" class="hidden-xs">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="media">
+                        <a href="#" class="">
+                            <div class="media-left">
+                                <i class="icon-meiyuan"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">支付宝交易保障</h4>
+                                <p>马云全程保障财产安全</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="media">
+                        <a href="#" class="">
+                            <div class="media-left">
+                                <i class="icon-meiyuan"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">微信交易保障</h4>
+                                <p>马化腾全程保障财产安全</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="media">
+                        <a href="#" class="">
+                            <div class="media-left">
+                                <i class="icon-meiyuan"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">中行交易保障</h4>
+                                <p>中国银行全程保障财产安全</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="media">
+                        <a href="#" class="">
+                            <div class="media-left">
+                                <i class="icon-meiyuan"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">农行交易保障</h4>
+                                <p>农业银行全程保障财产安全</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="media">
+                        <a href="#" class="">
+                            <div class="media-left">
+                                <i class="icon-meiyuan"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">工行交易保障</h4>
+                                <p>工商银行全程保障财产安全</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="media">
+                        <a href="#" class="">
+                            <div class="media-left">
+                                <i class="icon-meiyuan"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">建行交易保障</h4>
+                                <p>建设银行全程保障财产安全</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- 预约区域 -->
+    <section id="booking">
+        <div class="container">
+            <div class="pull-left">
+                <i class="icon-naozhong"></i> 现在有
+                <span class="text-danger">458</span>人在排队 , 累计预约交易成功
+                <span class="text-danger">7409</span>次. 什么是预约投标? <a href="#" class="text-danger">立即预约</a>
+            </div>
+            <div class="pull-right">
+                <i class="icon-video"></i> 微金所企业宣传片
+            </div>
+        </div>
+    </section>
+    <!-- 商品区域 -->
+    <section id="products">
+        <div class="container">
+            <div class="title">
+                <ul class="nav nav-tabs">
+                    <li class="active"><a href="#product1" data-toggle="tab">特别推荐</a></li>
+                    <li ><a href="#product2" data-toggle="tab">微投资</a></li>
+                    <li ><a href="#product3" data-toggle="tab">微小宝</a></li>
+                    <li ><a href="#product4" data-toggle="tab">微消费</a></li>
+                    <li ><a href="#product5" data-toggle="tab">微增利</a></li>
+                    <li ><a href="#product6" data-toggle="tab">微金宝</a></li>
+                    <li ><a href="#product7" data-toggle="tab">微转让</a></li>
+                </ul>
+            </div>
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane fade in active" id="product1">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="product active">
+                                <div class="left">
+                                    <div class="title">
+                                        <h4>新手体验</h4>
+                                    </div>
+                                    <div class="content">
+                                        <div class="row">
+                                            <div class="col-xs-6 text-left">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6 text-right">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6 text-left">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6 text-right">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <p><strong>8</strong><sub>%</sub></p>
+                                    <p>年利率</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="product">
+                                <div class="left">
+                                    <div class="title">
+                                        <h4>新手体验</h4>
+                                    </div>
+                                    <div class="content">
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <div class="tooltips">
+                                        <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="热销">热</button>
+                                        <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="精品">精</button>
+                                    </div>
+                                    <p><strong>8</strong><sub>%</sub></p>
+                                    <p>年利率</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="product">
+                                <div class="left">
+                                    <div class="title">
+                                        <h4>新手体验</h4>
+                                    </div>
+                                    <div class="content">
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <p><strong>8</strong><sub>%</sub></p>
+                                    <p>年利率</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="product">
+                                <div class="left">
+                                    <div class="title">
+                                        <h4>新手体验</h4>
+                                    </div>
+                                    <div class="content">
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <p><strong>8</strong><sub>%</sub></p>
+                                    <p>年利率</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="product">
+                                <div class="left">
+                                    <div class="title">
+                                        <h4>新手体验</h4>
+                                    </div>
+                                    <div class="content">
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <p><strong>8</strong><sub>%</sub></p>
+                                    <p>年利率</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="product">
+                                <div class="left">
+                                    <div class="title">
+                                        <h4>新手体验</h4>
+                                    </div>
+                                    <div class="content">
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <p><strong>8</strong><sub>%</sub></p>
+                                    <p>年利率</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="product2">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="product">
+                                <div class="left">
+                                    <div class="title">
+                                        <h4>新手体验</h4>
+                                    </div>
+                                    <div class="content">
+                                        <div class="row">
+                                            <div class="col-xs-6 text-left">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6 text-right">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6 text-left">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6 text-right">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <p><strong>8</strong><sub>%</sub></p>
+                                    <p>年利率</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="product active">
+                                <div class="left">
+                                    <div class="title">
+                                        <h4>新手体验</h4>
+                                    </div>
+                                    <div class="content">
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <div class="tooltips">
+                                        <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="热销">热</button>
+                                        <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="精品">精</button>
+                                    </div>
+                                    <p><strong>8</strong><sub>%</sub></p>
+                                    <p>年利率</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="product">
+                                <div class="left">
+                                    <div class="title">
+                                        <h4>新手体验</h4>
+                                    </div>
+                                    <div class="content">
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <p><strong>8</strong><sub>%</sub></p>
+                                    <p>年利率</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="product">
+                                <div class="left">
+                                    <div class="title">
+                                        <h4>新手体验</h4>
+                                    </div>
+                                    <div class="content">
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <p><strong>8</strong><sub>%</sub></p>
+                                    <p>年利率</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="product">
+                                <div class="left">
+                                    <div class="title">
+                                        <h4>新手体验</h4>
+                                    </div>
+                                    <div class="content">
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <p><strong>8</strong><sub>%</sub></p>
+                                    <p>年利率</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="product">
+                                <div class="left">
+                                    <div class="title">
+                                        <h4>新手体验</h4>
+                                    </div>
+                                    <div class="content">
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <p><strong>8</strong><sub>%</sub></p>
+                                    <p>年利率</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="product3">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="product">
+                                <div class="left">
+                                    <div class="title">
+                                        <h4>新手体验</h4>
+                                    </div>
+                                    <div class="content">
+                                        <div class="row">
+                                            <div class="col-xs-6 text-left">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6 text-right">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6 text-left">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6 text-right">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <p><strong>8</strong><sub>%</sub></p>
+                                    <p>年利率</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="product">
+                                <div class="left">
+                                    <div class="title">
+                                        <h4>新手体验</h4>
+                                    </div>
+                                    <div class="content">
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <div class="tooltips">
+                                        <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="热销">热</button>
+                                        <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="精品">精</button>
+                                    </div>
+                                    <p><strong>8</strong><sub>%</sub></p>
+                                    <p>年利率</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="product active">
+                                <div class="left">
+                                    <div class="title">
+                                        <h4>新手体验</h4>
+                                    </div>
+                                    <div class="content">
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <p><strong>8</strong><sub>%</sub></p>
+                                    <p>年利率</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="product">
+                                <div class="left">
+                                    <div class="title">
+                                        <h4>新手体验</h4>
+                                    </div>
+                                    <div class="content">
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <p><strong>8</strong><sub>%</sub></p>
+                                    <p>年利率</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="product">
+                                <div class="left">
+                                    <div class="title">
+                                        <h4>新手体验</h4>
+                                    </div>
+                                    <div class="content">
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <p><strong>8</strong><sub>%</sub></p>
+                                    <p>年利率</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="product">
+                                <div class="left">
+                                    <div class="title">
+                                        <h4>新手体验</h4>
+                                    </div>
+                                    <div class="content">
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <p><strong>8</strong><sub>%</sub></p>
+                                    <p>年利率</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="product4">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="product">
+                                <div class="left">
+                                    <div class="title">
+                                        <h4>新手体验</h4>
+                                    </div>
+                                    <div class="content">
+                                        <div class="row">
+                                            <div class="col-xs-6 text-left">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6 text-right">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6 text-left">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6 text-right">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <p><strong>8</strong><sub>%</sub></p>
+                                    <p>年利率</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="product">
+                                <div class="left">
+                                    <div class="title">
+                                        <h4>新手体验</h4>
+                                    </div>
+                                    <div class="content">
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <div class="tooltips">
+                                        <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="热销">热</button>
+                                        <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="精品">精</button>
+                                    </div>
+                                    <p><strong>8</strong><sub>%</sub></p>
+                                    <p>年利率</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="product">
+                                <div class="left">
+                                    <div class="title">
+                                        <h4>新手体验</h4>
+                                    </div>
+                                    <div class="content">
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <p><strong>8</strong><sub>%</sub></p>
+                                    <p>年利率</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="product active">
+                                <div class="left">
+                                    <div class="title">
+                                        <h4>新手体验</h4>
+                                    </div>
+                                    <div class="content">
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <p><strong>8</strong><sub>%</sub></p>
+                                    <p>年利率</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="product">
+                                <div class="left">
+                                    <div class="title">
+                                        <h4>新手体验</h4>
+                                    </div>
+                                    <div class="content">
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <p><strong>8</strong><sub>%</sub></p>
+                                    <p>年利率</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="product">
+                                <div class="left">
+                                    <div class="title">
+                                        <h4>新手体验</h4>
+                                    </div>
+                                    <div class="content">
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <p><strong>8</strong><sub>%</sub></p>
+                                    <p>年利率</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="product5">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="product">
+                                <div class="left">
+                                    <div class="title">
+                                        <h4>新手体验</h4>
+                                    </div>
+                                    <div class="content">
+                                        <div class="row">
+                                            <div class="col-xs-6 text-left">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6 text-right">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6 text-left">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6 text-right">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <p><strong>8</strong><sub>%</sub></p>
+                                    <p>年利率</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="product">
+                                <div class="left">
+                                    <div class="title">
+                                        <h4>新手体验</h4>
+                                    </div>
+                                    <div class="content">
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <div class="tooltips">
+                                        <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="热销">热</button>
+                                        <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="精品">精</button>
+                                    </div>
+                                    <p><strong>8</strong><sub>%</sub></p>
+                                    <p>年利率</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="product">
+                                <div class="left">
+                                    <div class="title">
+                                        <h4>新手体验</h4>
+                                    </div>
+                                    <div class="content">
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <p><strong>8</strong><sub>%</sub></p>
+                                    <p>年利率</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="product">
+                                <div class="left">
+                                    <div class="title">
+                                        <h4>新手体验</h4>
+                                    </div>
+                                    <div class="content">
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <p><strong>8</strong><sub>%</sub></p>
+                                    <p>年利率</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="product active">
+                                <div class="left">
+                                    <div class="title">
+                                        <h4>新手体验</h4>
+                                    </div>
+                                    <div class="content">
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <p><strong>8</strong><sub>%</sub></p>
+                                    <p>年利率</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="product">
+                                <div class="left">
+                                    <div class="title">
+                                        <h4>新手体验</h4>
+                                    </div>
+                                    <div class="content">
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <p><strong>8</strong><sub>%</sub></p>
+                                    <p>年利率</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="product6">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="product">
+                                <div class="left">
+                                    <div class="title">
+                                        <h4>新手体验</h4>
+                                    </div>
+                                    <div class="content">
+                                        <div class="row">
+                                            <div class="col-xs-6 text-left">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6 text-right">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6 text-left">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6 text-right">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <p><strong>8</strong><sub>%</sub></p>
+                                    <p>年利率</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="product">
+                                <div class="left">
+                                    <div class="title">
+                                        <h4>新手体验</h4>
+                                    </div>
+                                    <div class="content">
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <div class="tooltips">
+                                        <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="热销">热</button>
+                                        <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="精品">精</button>
+                                    </div>
+                                    <p><strong>8</strong><sub>%</sub></p>
+                                    <p>年利率</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="product">
+                                <div class="left">
+                                    <div class="title">
+                                        <h4>新手体验</h4>
+                                    </div>
+                                    <div class="content">
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <p><strong>8</strong><sub>%</sub></p>
+                                    <p>年利率</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="product">
+                                <div class="left">
+                                    <div class="title">
+                                        <h4>新手体验</h4>
+                                    </div>
+                                    <div class="content">
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <p><strong>8</strong><sub>%</sub></p>
+                                    <p>年利率</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="product">
+                                <div class="left">
+                                    <div class="title">
+                                        <h4>新手体验</h4>
+                                    </div>
+                                    <div class="content">
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <p><strong>8</strong><sub>%</sub></p>
+                                    <p>年利率</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="product active">
+                                <div class="left">
+                                    <div class="title">
+                                        <h4>新手体验</h4>
+                                    </div>
+                                    <div class="content">
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <p><strong>8</strong><sub>%</sub></p>
+                                    <p>年利率</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="product7">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="product active">
+                                <div class="left">
+                                    <div class="title">
+                                        <h4>新手体验</h4>
+                                    </div>
+                                    <div class="content">
+                                        <div class="row">
+                                            <div class="col-xs-6 text-left">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6 text-right">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6 text-left">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6 text-right">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <p><strong>8</strong><sub>%</sub></p>
+                                    <p>年利率</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="product">
+                                <div class="left">
+                                    <div class="title">
+                                        <h4>新手体验</h4>
+                                    </div>
+                                    <div class="content">
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <div class="tooltips">
+                                        <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="热销">热</button>
+                                        <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="精品">精</button>
+                                    </div>
+                                    <p><strong>8</strong><sub>%</sub></p>
+                                    <p>年利率</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="product">
+                                <div class="left">
+                                    <div class="title">
+                                        <h4>新手体验</h4>
+                                    </div>
+                                    <div class="content">
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <p><strong>8</strong><sub>%</sub></p>
+                                    <p>年利率</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="product">
+                                <div class="left">
+                                    <div class="title">
+                                        <h4>新手体验</h4>
+                                    </div>
+                                    <div class="content">
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <p><strong>8</strong><sub>%</sub></p>
+                                    <p>年利率</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="product">
+                                <div class="left">
+                                    <div class="title">
+                                        <h4>新手体验</h4>
+                                    </div>
+                                    <div class="content">
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <p><strong>8</strong><sub>%</sub></p>
+                                    <p>年利率</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="product">
+                                <div class="left">
+                                    <div class="title">
+                                        <h4>新手体验</h4>
+                                    </div>
+                                    <div class="content">
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起步价</p>
+                                                <p><strong>1000.00</strong><sub>万</sub></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <p><strong>8</strong><sub>%</sub></p>
+                                    <p>年利率</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 新闻区域 -->
+    <section id="news">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 col-md-offset-2">
+                    <h4>全部新闻</h4>
+                </div>
+                <div class="col-md-1">
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#news01" data-toggle="tab"><i class="icon-news01"></i></a></li>
+                        <li><a href="#news02" data-toggle="tab"><i class="icon-news02"></i></a></li>
+                        <li><a href="#news03" data-toggle="tab"><i class="icon-news03"></i></a></li>
+                        <li><a href="#news04" data-toggle="tab"><i class="icon-news04"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-7">
+                    <div class="tab-content">
+                        <div class="tab-pane active fade in" id="news01">
+                            <ul class="list-group">
+                                <li class="list-group-item"><strong>[ 微新闻 ]</strong> 近日没有新闻1</li>
+                                <li class="list-group-item"><strong>[ 微新闻 ]</strong> 近日没有新闻2</li>
+                                <li class="list-group-item"><strong>[ 微新闻 ]</strong> 近日没有新闻3</li>
+                                <li class="list-group-item"><strong>[ 微新闻 ]</strong> 近日没有新闻4</li>
+                                <li class="list-group-item"><strong>[ 微新闻 ]</strong> 近日没有新闻5</li>
+                                <li class="list-group-item"><strong>[ 微新闻 ]</strong> 近日没有新闻6</li>
+                                <li class="list-group-item"><strong>[ 微新闻 ]</strong> 近日没有新闻7</li>
+                                <li class="list-group-item"><strong>[ 微新闻 ]</strong> 近日没有新闻8</li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="news02">
+                            <ul class="list-group">
+                                <li class="list-group-item"><strong>[ 微新闻 ]</strong> 微金所已经倒闭1</li>
+                                <li class="list-group-item"><strong>[ 微新闻 ]</strong> 微金所已经倒闭2</li>
+                                <li class="list-group-item"><strong>[ 微新闻 ]</strong> 微金所已经倒闭3</li>
+                                <li class="list-group-item"><strong>[ 微新闻 ]</strong> 微金所已经倒闭4</li>
+                                <li class="list-group-item"><strong>[ 微新闻 ]</strong> 微金所已经倒闭5</li>
+                                <li class="list-group-item"><strong>[ 微新闻 ]</strong> 微金所已经倒闭6</li>
+                                <li class="list-group-item"><strong>[ 微新闻 ]</strong> 微金所已经倒闭7</li>
+                                <li class="list-group-item"><strong>[ 微新闻 ]</strong> 微金所已经倒闭8</li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade " id="news03">
+                            <ul class="list-group">
+                                <li class="list-group-item"><strong>[ 微新闻 ]</strong> 微金所倒闭倒计时1</li>
+                                <li class="list-group-item"><strong>[ 微新闻 ]</strong> 微金所倒闭倒计时2</li>
+                                <li class="list-group-item"><strong>[ 微新闻 ]</strong> 微金所倒闭倒计时3</li>
+                                <li class="list-group-item"><strong>[ 微新闻 ]</strong> 微金所倒闭倒计时4</li>
+                                <li class="list-group-item"><strong>[ 微新闻 ]</strong> 微金所倒闭倒计时5</li>
+                                <li class="list-group-item"><strong>[ 微新闻 ]</strong> 微金所倒闭倒计时6</li>
+                                <li class="list-group-item"><strong>[ 微新闻 ]</strong> 微金所倒闭倒计时7</li>
+                                <li class="list-group-item"><strong>[ 微新闻 ]</strong> 微金所倒闭倒计时8</li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade " id="news04">
+                            <ul class="list-group">
+                                <li class="list-group-item"><strong>[ 微新闻 ]</strong> 微金所即将倒闭1</li>
+                                <li class="list-group-item"><strong>[ 微新闻 ]</strong> 微金所即将倒闭2</li>
+                                <li class="list-group-item"><strong>[ 微新闻 ]</strong> 微金所即将倒闭3</li>
+                                <li class="list-group-item"><strong>[ 微新闻 ]</strong> 微金所即将倒闭4</li>
+                                <li class="list-group-item"><strong>[ 微新闻 ]</strong> 微金所即将倒闭5</li>
+                                <li class="list-group-item"><strong>[ 微新闻 ]</strong> 微金所即将倒闭6</li>
+                                <li class="list-group-item"><strong>[ 微新闻 ]</strong> 微金所即将倒闭7</li>
+                                <li class="list-group-item"><strong>[ 微新闻 ]</strong> 微金所即将倒闭8</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 合作伙伴 -->
+    <footer id="footer">
+        <div class="container">
+            <div class="title">
+                <h3>合作伙伴</h3>
+            </div>
+            <div class="content">
+                <div class="row">
+                    <div class="col-sm-4 col-xs-12">
+                        <div class="row">
+                            <div class="col-xs-4"><a href="#"><i class="icon-partner1"></i></a> </div>
+                            <div class="col-xs-4"><a href="#"><i class="icon-partner2"></i></a> </div>
+                            <div class="col-xs-4"><a href="#"><i class="icon-partner3"></i></a> </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-xs-12">
+                        <div class="row">
+                            <div class="col-xs-4"><a href="#"><i class="icon-partner4"></i></a> </div>
+                            <div class="col-xs-4"><a href="#"><i class="icon-partner5"></i></a> </div>
+                            <div class="col-xs-4"><a href="#"><i class="icon-partner6"></i></a> </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-xs-12">
+                        <div class="row">
+                            <div class="col-xs-4"><a href="#"><i class="icon-partner7"></i></a> </div>
+                            <div class="col-xs-4"><a href="#"><i class="icon-partner8"></i></a> </div>
+                            <div class="col-xs-4"><a href="#"><i class="icon-partner9"></i></a> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+
+
+
+    <script src="./lib/jquery/jquery.js"></script>
+    <script src="./lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./js/index.js"></script>
+
+</body>
+</html>
